@@ -112,3 +112,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/** disallow file edit in admin portal **/
+define(‘DISALLOW_FILE_EDIT’, true);
